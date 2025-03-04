@@ -58,8 +58,8 @@ function solveAdjacentAngleLeg(betaVal, bVal) {
   beta = betaVal;
   const betaRad = degToRad(beta);
   b = bVal;
-  c = b / Math.sin(betaRad);
-  a = c * Math.cos(betaRad);
+  c = b / Math.cos(betaRad); 
+  a = c * Math.sin(betaRad); 
   alpha = 90 - beta;
 }
 
@@ -76,8 +76,8 @@ function solveAdjacentAngleHypotenuse(betaVal, cVal) {
   beta = betaVal;
   const betaRad = degToRad(beta);
   c = cVal;
-  b = c * Math.sin(betaRad); // бо b навпроти beta
-  a = c * Math.cos(betaRad); // бо a навпроти alpha
+  b = c * Math.cos(betaRad);
+  a = c * Math.sin(betaRad);
   alpha = 90 - beta;
 }
 
