@@ -1,4 +1,3 @@
-
 console.log("=== Інструкція з використання функції triangle ===");
 console.log("Формат виклику: triangle(value1, type1, value2, type2)");
 console.log("Типи: 'leg', 'hypotenuse', 'opposite angle', 'adjacent angle', 'angle'");
